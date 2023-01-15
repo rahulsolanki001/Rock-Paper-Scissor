@@ -62,7 +62,7 @@ const OnClickChoice=(choice)=>{
    
     document.getElementById("icon-container").style.display="none";
     document.getElementById("chosen-container").style.display="flex";
-    document.getElementById("result-container").style.display="block"
+    document.getElementById("result-container").style.display="flex"
     document.getElementById("rules").style.marginTop="20%";
     if(window.matchMedia("(min-width:1000px)").matches){
         document.getElementById("rules").style.marginTop="2%";
@@ -178,5 +178,11 @@ const play=()=>{
     }else{
         document.getElementById("rules").style.marginTop="30%";
     }
+}
+
+const restart=()=>{
+    document.getElementById("points").textContent="0";
+    sessionStorage.setItem("points","0");
+    play();
 }
 
