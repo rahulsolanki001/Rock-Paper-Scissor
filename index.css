@@ -29,7 +29,7 @@ body{background-image: radial-gradient(circle at center, hsl(214, 47%, 23%),hsl(
 #sub-heading{color: #fff;}
 .result-display-container{display: none;text-align: center;color: #fff;}
 #play-again{background-color: #fff;color:hsl(229, 25%, 31%);border: 0ch;border-radius: 10px;height: 7vh;}
-#restart{background-color: #800000;color: #fff;border: 0ch;border-radius: 10px;;height: 7vh;margin-top: 4%;}
+#restart{background-color: #800000;color: #fff;border: 0ch;border-radius: 10px;height: 7vh;margin-top: 4%;}
 
 /* rules modal */
 #rules{border: 2px solid #fff; border-radius: 5px;font-size: 18px;outline: 0ch;background-color: transparent;color: #fff;height:5vh;cursor: pointer;}
